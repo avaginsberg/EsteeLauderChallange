@@ -11,7 +11,7 @@ import SwiftUI
 struct EsteeLauderChallangeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(name:"")
         }
     }
 }

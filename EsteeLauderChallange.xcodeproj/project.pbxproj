@@ -14,6 +14,11 @@
 		D8DB1AD02A7DBAE300478E68 /* EsteeLauderChallangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB1ACF2A7DBAE300478E68 /* EsteeLauderChallangeTests.swift */; };
 		D8DB1ADA2A7DBAE300478E68 /* EsteeLauderChallangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB1AD92A7DBAE300478E68 /* EsteeLauderChallangeUITests.swift */; };
 		D8DB1ADC2A7DBAE300478E68 /* EsteeLauderChallangeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB1ADB2A7DBAE300478E68 /* EsteeLauderChallangeUITestsLaunchTests.swift */; };
+		D8DB1AEB2A7DBCFE00478E68 /* GradiantBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB1AEA2A7DBCFE00478E68 /* GradiantBackground.swift */; };
+		D8DB1AEF2A7DD50700478E68 /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB1AEE2A7DD50700478E68 /* mainPage.swift */; };
+		D8DB1AF12A81A5DB00478E68 /* overlayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB1AF02A81A5DB00478E68 /* overlayPage.swift */; };
+		D8DB1AF42A81B0C500478E68 /* shopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB1AF32A81B0C500478E68 /* shopView.swift */; };
+		D8DB1AF62A81B0D100478E68 /* learnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB1AF52A81B0D100478E68 /* learnView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D8DB1AD52A7DBAE300478E68 /* EsteeLauderChallangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsteeLauderChallangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DB1AD92A7DBAE300478E68 /* EsteeLauderChallangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauderChallangeUITests.swift; sourceTree = "<group>"; };
 		D8DB1ADB2A7DBAE300478E68 /* EsteeLauderChallangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauderChallangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8DB1AEA2A7DBCFE00478E68 /* GradiantBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantBackground.swift; sourceTree = "<group>"; };
+		D8DB1AEE2A7DD50700478E68 /* mainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		D8DB1AF02A81A5DB00478E68 /* overlayPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overlayPage.swift; sourceTree = "<group>"; };
+		D8DB1AF32A81B0C500478E68 /* shopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopView.swift; sourceTree = "<group>"; };
+		D8DB1AF52A81B0D100478E68 /* learnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				D8DB1ABE2A7DBAE100478E68 /* EsteeLauderChallangeApp.swift */,
 				D8DB1AC02A7DBAE100478E68 /* ContentView.swift */,
+				D8DB1AEE2A7DD50700478E68 /* mainPage.swift */,
+				D8DB1AF32A81B0C500478E68 /* shopView.swift */,
+				D8DB1AF52A81B0D100478E68 /* learnView.swift */,
+				D8DB1AF02A81A5DB00478E68 /* overlayPage.swift */,
+				D8DB1AEA2A7DBCFE00478E68 /* GradiantBackground.swift */,
 				D8DB1AC22A7DBAE300478E68 /* Assets.xcassets */,
 				D8DB1AC42A7DBAE300478E68 /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DB1AF62A81B0D100478E68 /* learnView.swift in Sources */,
 				D8DB1AC12A7DBAE100478E68 /* ContentView.swift in Sources */,
+				D8DB1AEB2A7DBCFE00478E68 /* GradiantBackground.swift in Sources */,
+				D8DB1AF42A81B0C500478E68 /* shopView.swift in Sources */,
 				D8DB1ABF2A7DBAE100478E68 /* EsteeLauderChallangeApp.swift in Sources */,
+				D8DB1AF12A81A5DB00478E68 /* overlayPage.swift in Sources */,
+				D8DB1AEF2A7DD50700478E68 /* mainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
